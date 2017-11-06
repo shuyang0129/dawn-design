@@ -3,11 +3,19 @@
 ////////////////////////////////////////////////////
 
 //Base color
-$black:#000000;
-$white:#FFFFFF;
+$black      :#000000;
+$white      :#FFFFFF;
+$link-water :#F8FAFD;
+$athens-gray:#E6E9ED;
 
 //Button color
 $btn__color :#80CBC4;
+
+//Text field
+$input-field: (
+	bg      : rgba($link-water, 1.00),
+	border  : rgba($athens-gray, 1.00),
+);
 
 //Text color
 $text__color: (
@@ -40,3 +48,18 @@ $icon__color: (
 		inactive : rgba($white, 0.50),
 	),
 );
+
+
+
+////////////////////////////////////////////////////
+// SPACING
+////////////////////////////////////////////////////
+
+$spacing: (
+	s : 16px,
+	m : 24px,
+	l : 32px,
+	xl: 48px,
+);
+
+$line-height_def: 1.5; 
