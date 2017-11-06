@@ -7,5 +7,36 @@ $black:#000000;
 $white:#FFFFFF;
 
 //Button color
-$btn__color:#80CBC4;
+$btn__color :#80CBC4;
 
+//Text color
+$text__color: (
+	dark : (
+		primary  : rgba($black, 0.87),
+		secondary: rgba($black, 0.54),
+		hint     : rgba($black, 0.38),
+	),
+	light: (
+		primary  : rgba($white, 1.00),
+		secondary: rgba($white, 0.70),
+		hint     : rgba($white, 0.50),
+	),
+);
+
+// Icon color
+$icon__color: (
+	dark : (
+		active   : (
+			focused  : rgba($black, 0.87),
+			unfocused: rgba($black, 0.54),
+		),
+		inactive     : rgba($black, 0.38),
+	),
+	light: (
+		active   : (
+			focused  : rgba($white, 1.00),
+			unfocused: rgba($white, 0.70),
+		),
+		inactive     : rgba($white, 0.50),
+	),
+);
