@@ -30,13 +30,13 @@ $icon__color: (
 			focused  : rgba($black, 0.87),
 			unfocused: rgba($black, 0.54),
 		),
-		inactive     : rgba($black, 0.38),
+		inactive : rgba($black, 0.38),
 	),
 	light: (
 		active   : (
 			focused  : rgba($white, 1.00),
 			unfocused: rgba($white, 0.70),
 		),
-		inactive     : rgba($white, 0.50),
+		inactive : rgba($white, 0.50),
 	),
 );
