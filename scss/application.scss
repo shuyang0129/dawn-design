@@ -5,7 +5,6 @@
 @import 'base/function';
 @import 'base/variable';
 @import 'base/mixin';
-@import 'base/base';
 
 
 
@@ -14,14 +13,3 @@
 ////////////////////////////////////////////////////
 
 @import 'module/shadow';
-@import 'module/flex-box';
-
-
-
-////////////////////////////////////////////////////
-// COMPONENT
-////////////////////////////////////////////////////
-
-@import 'component/banner';
-
-
