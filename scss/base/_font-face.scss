@@ -1,0 +1,15 @@
+/*-----------------------------------------------------
+FONT FACE
+-----------------------------------------------------*/
+
+/*--Unica One--*/
+@include font__face("UnicaOne", "#{$font__path}/Unica_One/UnicaOne-Regular"         , 400, normal);
+
+/*--Noto Sans CJK--*/
+@include font__face("NotoSansCJK", "#{font__path}/NotoSansCJKtc/NotoSansCJKtc-Thin"     , 100, normal);
+@include font__face("NotoSansCJK", "#{font__path}/NotoSansCJKtc/NotoSansCJKtc-Light"    , 300, normal);
+@include font__face("NotoSansCJK", "#{font__path}/NotoSansCJKtc/NotoSansCJKtc-DemiLight", 350, normal);
+@include font__face("NotoSansCJK", "#{font__path}/NotoSansCJKtc/NotoSansCJKtc-Regular"  , 400, normal);
+@include font__face("NotoSansCJK", "#{font__path}/NotoSansCJKtc/NotoSansCJKtc-Medium"   , 500, normal);
+@include font__face("NotoSansCJK", "#{font__path}/NotoSansCJKtc/NotoSansCJKtc-Bold"     , 700, normal);
+@include font__face("NotoSansCJK", "#{font__path}/NotoSansCJKtc/NotoSansCJKtc-Black"    , 900, normal);
