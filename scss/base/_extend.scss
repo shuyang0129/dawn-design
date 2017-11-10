@@ -1,0 +1,53 @@
+/*-----------------------------------------------------
+TEXT FORMATTING
+-----------------------------------------------------*/
+
+/*--Text overflow | one line--*/
+%text__overflow_one-line {
+	overflow      : hidden;
+	white-space   : nowrap;
+	text-overflow : ellipsis;
+}
+
+/*--Text transform--*/
+%text__capitalization_uppercase {
+	text-transform: uppercase;
+}
+
+%text__capitalization_lowercase {
+	text-transform: lowercase;
+}
+
+%text__capitalization_capitalize {
+	text-transform: capitalize;
+}
+
+%text__capitalization_uppercase_first-letter {
+	@extend %text__capitalization_lowercase;
+
+	&:first-letter {
+		@extend %text__capitalization_capitalize;
+	}
+}
+
+
+
+/*-----------------------------------------------------
+CENTER
+-----------------------------------------------------*/
+
+%center_center {
+	@extend %disp_flex;
+	@extend %justify-content_center;
+	@extend %align-items_center;
+}
+
+%center_vertical {
+	@extend %disp_flex;
+	@extend %align-items_center;
+}
+
+%center_horizontal {
+	@extend %disp_flex;
+	@extend %justify-content_center;
+}
