@@ -1,8 +1,57 @@
+/*-----------------------------------------------------
+HEADER
+-----------------------------------------------------*/
+
+/*--Banner--*/
 .banner {
-	width: 100%;
-	height: 100vh;
-	max-height: 960px;
-	background: url(../img/dawn_protrairt.jpg) no-repeat top center;
-	@include prefix(background-size, cover, webkit moz o);
-	
+	position        : relative;
+	width           : 100%;
+	height          : 100vh;
+	min-height      : 460px;
+	max-height      : 960px;
+	background      : linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+	                  url(../img/dawn_protrairt.jpg) no-repeat top center;
+	@include          prefix(background-size, cover, webkit moz o);
+	@extend           %center_center;
+ }
+
+/*--Brand | name & slogan--*/
+.brand {
+	text-align      : center;
+	color           : white;
+	text-shadow     : 0px  2px  4px rgba($black, 0.14), 
+	                  0px  4px  5px rgba($black, 0.12), 
+                      0px  1px 10px rgba($black, 0.20),;
+}
+
+.brand__name {
+	font-family     : 'UnicaOne',cursive;
+	font-size       : 40px;
+	margin-bottom   : 6px;
+}
+
+.brand__name:before {
+	@extend           %line_w;
+	margin-bottom   : 6px;
+	@extend           %shadow_1dp;
+}
+
+.brand__name:after {
+	@extend           %line_w;
+	margin-top      : 6px;
+	@extend           %shadow_1dp;
+}
+
+.brand__slogan {
+	font-size       : 14px;
+	line-height     : 1.7;
+	font-weight     : map-get($font__weight, regular);
+	max-width       : 213px;
+	letter-spacing  : 1.4px;
+}
+
+/*--Arrow down button--*/
+.button__icon {
+	position        : absolute;
+	bottom          : 64px;
 }
