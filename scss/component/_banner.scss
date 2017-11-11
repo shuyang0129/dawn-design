@@ -3,7 +3,7 @@ HEADER
 -----------------------------------------------------*/
 
 /*--Banner--*/
-.banner {
+header {
 	position        : relative;
 	width           : 100%;
 	height          : 100vh;
@@ -51,7 +51,7 @@ HEADER
 }
 
 /*--Arrow down button--*/
-.button__icon {
+.btn__arrow-down {
 	position        : absolute;
 	bottom          : 64px;
 }
