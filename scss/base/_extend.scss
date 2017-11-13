@@ -66,3 +66,27 @@ CENTER
 	@extend %disp_flex;
 	@extend %justify-content_center;
 }
+
+
+
+/*-----------------------------------------------------
+CARD DEFAULT SETTING
+-----------------------------------------------------*/
+
+%card_def {
+	@extend %shadow_2dp;
+	@extend %border__radius_def;
+	overflow      : hidden;
+	max-width     : 100%;
+}
+
+
+
+/*-----------------------------------------------------
+BORDER RADIUS DEFAULT
+-----------------------------------------------------*/
+
+%border__radius_def {
+	border-radius : 2px;
+}
+
