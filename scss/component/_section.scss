@@ -1,5 +1,12 @@
-.section__item:last-child {
-	margin-bottom: 0px;
+.section__item {
+	padding: 32px 24px;
+	margin: 0px 24px 24px;
+	text-align: center;
+	@extend %card_def;
+
+	&:last-child {
+		margin-bottom: 0px;
+	}
 }
 
 .section__heading {
