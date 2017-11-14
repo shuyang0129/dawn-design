@@ -33,3 +33,13 @@
 	color: rgba($black, 0.54);
 	line-height: 24px;
 }
+
+.button__view-project {
+	@extend %button_def;
+	width: 100%;
+	font-size: 14px;
+	font-weight: 500;
+	color: white;
+	background-color: #80CBC4;
+	margin-top: 16px;
+}
