@@ -7,6 +7,15 @@
 	&:last-child {
 		margin-bottom: 0px;
 	}
+
+	:nth-child(n) {
+		margin-bottom: 16px;
+	}
+
+	:last-child {
+		margin-bottom: 0px;
+	}
+
 }
 
 .section__heading {
@@ -23,8 +32,6 @@
 	font-weight: 500;
 	color: rgba($black, 0.87);
 	width: 100%;
-	margin: 16px auto;
-
 }
 
 .section__item__description {
@@ -34,12 +41,7 @@
 	line-height: 24px;
 }
 
-.button__view-project {
+.section__btn {
 	@extend %button_def;
 	width: 100%;
-	font-size: 14px;
-	font-weight: 500;
-	color: white;
-	background-color: #80CBC4;
-	margin-top: 16px;
 }
