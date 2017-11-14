@@ -7,19 +7,34 @@ BASE
 }
 
 body {
-	font-family: 'NotoSans', sans-serif, 'NotoSansCJK', '微軟正黑體', 'Microsoft JhengHei';
+	font-family   : 'NotoSans', sans-serif, 'NotoSansCJK', '微軟正黑體', 'Microsoft JhengHei';
 }
 
 img {
-	max-width  : 100%;
+	max-width     : 100%;
 	vertical-align: middle;
 }
 
 button {
-	@extend %cursor__pointer;
-	background : transparent no-repeat;
-	border     : none;
-	outline    : none;
-	margin     : 0;
-	padding    : 0;
+	@extend         %cursor__pointer;
+	background    : transparent no-repeat;
+	border        : none;
+	outline       : none;
+	margin        : 0;
+	padding       : 0;
+}
+
+input[type=text] {
+	@extend         %form_def;
+	height        : 36px;
+	padding-left  : 16px;
+}
+
+textarea {
+	@extend         %form_def;
+	resize        : none;
+	min-height    : 108px;
+	padding-left  : 16px;
+	padding-top   : 10px;
+	line-height   : 24px;
 }
