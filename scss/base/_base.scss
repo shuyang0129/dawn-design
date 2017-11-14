@@ -14,3 +14,12 @@ img {
 	max-width  : 100%;
 	vertical-align: middle;
 }
+
+button {
+	@extend %cursor__pointer;
+	background : transparent no-repeat;
+	border     : none;
+	outline    : none;
+	margin     : 0;
+	padding    : 0;
+}
