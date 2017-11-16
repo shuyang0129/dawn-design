@@ -1,5 +1,5 @@
 .icon-with-text {
-	@extend .section__item__description;
+	@extend .section__item__body;
 
 	li {
 		@extend %center_vertical;
