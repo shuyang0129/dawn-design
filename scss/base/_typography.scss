@@ -1,0 +1,49 @@
+/*-----------------------------------------------------
+TYPOGRAPHY
+-----------------------------------------------------*/
+
+/*--Brand | name & slogan--*/
+.brand {
+	text-align : center;
+	color      : white;
+}
+
+.brand__name {
+	font-family: 'UnicaOne',cursive;
+	font-size  : 40px;
+}
+
+.brand__slogan {
+	font-size  : 14px;
+	font-weight: map-get($font__weight, regular);
+	line-height: 1.7;
+}
+
+/*--Section | global style--*/
+.section__item {
+	text-align : center;
+}
+
+.section__heading {
+	font-size  : 20px;
+	font-weight: 700;
+	color      : rgba($black, 0.87);
+}
+
+.section__item__title {
+	font-size  : 16px;
+	font-weight: 500;
+	color      : rgba($black, 0.87);
+}
+
+.section__item__body {
+	font-size  : 14px;
+	font-weight: 400;
+	color      : rgba($black, 0.54);
+	line-height: 24px;
+}
+
+/*--Section | contact me--*/
+.section__contact .section__item__body {
+	text-align : left;
+}
