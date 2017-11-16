@@ -1,0 +1,16 @@
+.icon-with-text {
+	@extend .section__item__description;
+
+	li {
+		@extend %center_vertical;
+
+		&:nth-child(n) {
+			margin-bottom: 16px;
+		}
+	}
+
+	i {
+		margin-right: 16px;
+	}
+}
+
