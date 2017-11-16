@@ -1,7 +1,7 @@
 .section__item {
-	padding: 32px 24px;
-	margin: 0px 24px 24px;
-	@extend %card_def;
+	padding : 32px 24px;
+	margin  : 0px 24px 24px;
+	@extend   %card_def;
 
 	&:last-child {
 		margin-bottom: 0px;
@@ -18,16 +18,16 @@
 }
 
 .section__heading {
-	width: 100%;
-	height: 112px;
-	@extend %center_center;
+	width   : 100%;
+	height  : 112px;
+	@extend   %center_center;
 }
 
 .section__item__title {
-	width: 100%;
+	width   : 100%;
 }
 
 .section__btn {
-	@extend %button_def;
-	width: 100%;
+	@extend   %button_def;
+	width   : 100%;
 }
