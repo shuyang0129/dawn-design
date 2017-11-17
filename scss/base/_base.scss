@@ -15,6 +15,10 @@ img {
 	vertical-align: middle;
 }
 
+a:visited {
+	color: inherit;
+}
+
 button {
 	@extend         %cursor__pointer;
 	background    : transparent no-repeat;
