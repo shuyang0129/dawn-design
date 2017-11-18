@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="44px" viewBox="0 0 48 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>ic__sketch</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mobile" transform="translate(-40.000000, -5838.000000)">
+            <g id="skill" transform="translate(0.000000, 5262.000000)">
+                <g id="skill__item" transform="translate(16.000000, 112.000000)">
+                    <g id="skill__sketch" transform="translate(0.000000, 462.000000)">
+                        <g id="ic__sketch" transform="translate(24.000000, 0.000000)">
+                            <rect id="bg" x="0" y="0" width="48" height="48"></rect>
+                            <polygon id="a" fill="#EA6C00" fill-rule="nonzero" points="9.75208421 17.6131368 23.9499789 45.4026105 0.0858947368 17.6131368"></polygon>
+                            <polygon id="b" fill="#EA6C00" fill-rule="nonzero" transform="translate(35.886063, 31.507874) scale(-1, 1) translate(-35.886063, -31.507874) " points="33.6202105 17.6131368 47.8181053 45.4026105 23.9540211 17.6131368"></polygon>
+                            <polygon id="c" fill="#FDAD00" fill-rule="nonzero" points="9.75157895 17.6131368 38.1473684 17.6131368 23.9494737 45.4026105"></polygon>
+                            <polygon id="d" fill="#FDD231" fill-rule="nonzero" points="23.9494737 2.21221053 10.4988632 3.63402105 9.75157895 17.6131368"></polygon>
+                            <polygon id="e" fill="#FDD231" fill-rule="nonzero" transform="translate(31.048421, 9.912674) scale(-1, 1) translate(-31.048421, -9.912674) " points="38.1473684 2.21221053 24.6967579 3.63402105 23.9494737 17.6131368"></polygon>
+                            <polygon id="f" fill="#FDAD00" fill-rule="nonzero" transform="translate(42.611368, 10.623579) scale(-1, 1) translate(-42.611368, -10.623579) " points="37.4046316 17.6131368 47.8181053 3.63402105 47.0708211 17.6131368"></polygon>
+                            <polygon id="g" fill="#FDAD00" fill-rule="nonzero" points="0.0858947368 17.6131368 10.4993684 3.63402105 9.75208421 17.6131368"></polygon>
+                            <polygon id="h" fill="#FEEEB7" fill-rule="nonzero" points="23.9494737 2.21221053 9.75157895 17.6131368 38.1473684 17.6131368"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

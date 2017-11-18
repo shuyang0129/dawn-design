@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="48px" viewBox="0 0 42 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>ic__html</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mobile" transform="translate(-43.000000, -5551.000000)">
+            <g id="skill" transform="translate(0.000000, 5262.000000)">
+                <g id="skill__item" transform="translate(16.000000, 112.000000)">
+                    <g id="skill__html" transform="translate(0.000000, 176.000000)">
+                        <g id="ic__html" transform="translate(24.000000, 1.000000)">
+                            <rect id="bg" x="0" y="0" width="48" height="48"></rect>
+                            <polygon id="polygon3028" fill="#E44D26" fill-rule="nonzero" points="44.9269615 0.533076923 41.1139615 43.2483462 23.9743846 48 6.882 43.2550385 3.07303846 0.533076923"></polygon>
+                            <polygon id="polygon3030" fill="#F16529" fill-rule="nonzero" points="24 44.3680385 37.8496154 40.5283846 41.1080769 4.02623077 24 4.02623077"></polygon>
+                            <polygon id="polygon3032" fill="#EBEBEB" fill-rule="nonzero" points="16.5876923 14.5056923 24 14.5056923 24 9.26596154 23.9818846 9.26596154 10.8613846 9.26596154 10.9868077 10.6716923 12.2746154 25.1108077 24 25.1108077 24 19.8711923 17.0665385 19.8711923"></polygon>
+                            <polygon id="polygon3034" fill="#EBEBEB" fill-rule="nonzero" points="17.7685385 27.7307308 14.9329615 27.7307308 12.5087308 27.7307308 13.2428077 35.9577692 23.9758846 38.9373462 24 38.9306538 24 33.4791923 23.9770385 33.4853077 18.1415769 31.9096154"></polygon>
+                            <polygon id="polygon3044" fill="#FFFFFF" fill-rule="nonzero" points="23.9818846 25.1108077 30.4339615 25.1108077 29.8257692 31.9062692 23.9818846 33.4835769 23.9818846 38.9348077 34.7235 35.9577692 34.8023077 35.0725385 36.0335769 21.2781923 36.1614231 19.8711923 34.7494615 19.8711923 23.9818846 19.8711923"></polygon>
+                            <polygon id="polygon3046" fill="#FFFFFF" fill-rule="nonzero" points="23.9818846 14.4928846 23.9818846 14.5056923 36.6213462 14.5056923 36.6213462 14.5056923 36.6381923 14.5056923 36.7433077 13.3279615 36.9820385 10.6716923 37.1073462 9.26596154 23.9818846 9.26596154 23.9818846 12.5202692"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

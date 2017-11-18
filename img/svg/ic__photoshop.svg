@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>ic__photoshop</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="24.3016667%" y1="-5.22237288%" x2="62.635%" y2="77.1508475%" id="linearGradient-1">
+            <stop stop-color="#A0CBFF" offset="0%"></stop>
+            <stop stop-color="#A0CBFE" offset="39.4%"></stop>
+            <stop stop-color="#8EC2FC" offset="58.3%"></stop>
+            <stop stop-color="#83BCFB" offset="78.4%"></stop>
+            <stop stop-color="#7FBAFB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="35.6209668%" y1="1.40921147%" x2="61.3855813%" y2="88.4780032%" id="linearGradient-2">
+            <stop stop-color="#090058" offset="0%"></stop>
+            <stop stop-color="#070033" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-43.5194644%" y1="-70.0590128%" x2="98.0160244%" y2="129.940987%" id="linearGradient-3">
+            <stop stop-color="#A0CBFF" offset="0%"></stop>
+            <stop stop-color="#A0CBFE" offset="39.4%"></stop>
+            <stop stop-color="#8EC2FC" offset="58.3%"></stop>
+            <stop stop-color="#83BCFB" offset="78.4%"></stop>
+            <stop stop-color="#7FBAFB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-91.0458797%" y1="-153.082363%" x2="85.6110056%" y2="105.380859%" id="linearGradient-4">
+            <stop stop-color="#A0CBFF" offset="0%"></stop>
+            <stop stop-color="#A0CBFE" offset="39.4%"></stop>
+            <stop stop-color="#8EC2FC" offset="58.3%"></stop>
+            <stop stop-color="#83BCFB" offset="78.4%"></stop>
+            <stop stop-color="#7FBAFB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mobile" transform="translate(-40.000000, -5406.000000)" fill-rule="nonzero">
+            <g id="skill" transform="translate(0.000000, 5262.000000)">
+                <g id="skill__item" transform="translate(16.000000, 112.000000)">
+                    <g id="skill__photoshop" transform="translate(0.000000, 32.000000)">
+                        <g id="ic__photoshop" transform="translate(24.000000, 0.000000)">
+                            <polygon id="Shape" fill="url(#linearGradient-1)" points="0 0 48 0 48 48 0 48"></polygon>
+                            <polygon id="Shape" fill="url(#linearGradient-2)" points="4 4 44 4 44 44 4 44"></polygon>
+                            <path d="M11.59968,14.30304 C11.59968,14.30304 14.63456,14.2232 17.1328,14.2232 C19.65728,14.2232 21.45728,14.81712 22.66576,15.8608 C23.8208,16.84704 24.59968,18.52832 24.59968,20.44224 C24.59968,22.35616 24.00864,23.92224 22.93408,25.02336 C21.53744,26.44432 19.90992,27.28544 17.1328,27.40176 C16.3656,27.43392 15.65552,27.4416 15.65552,27.4416 L15.65552,33.66304 L11.59952,33.66304 L11.59968,14.30304 L11.59968,14.30304 Z M15.65536,23.99472 C16.096,24.0376 16.37216,24.01696 17.02528,24.00912 C19.20096,23.98304 20.54352,22.66 20.54352,20.6592 C20.54352,18.86176 19.43648,17.38592 17.34784,17.30944 C16.51536,17.27904 15.65536,17.30944 15.65536,17.30944 L15.65536,23.99472 L15.65536,23.99472 Z" id="Shape" fill="url(#linearGradient-3)"></path>
+                            <path d="M26.14752,29.3288 C26.96496,29.8304 28.89392,30.5816 30.2088,30.5816 C31.55216,30.5816 32.10688,30.10816 32.10688,29.37008 C32.10688,28.63104 31.6688,27.85472 30.00368,27.29344 C27.05344,26.2888 25.91408,25.08624 25.94368,23.40304 C25.94368,20.68448 28.22176,18.64608 31.75616,18.64608 C33.42112,18.64608 34.7512,19.1904 35.62672,19.63328 L35.62672,22.896 C34.98352,22.54112 33.12896,21.7488 31.9024,21.7488 C30.82096,21.7488 30.208,22.192 30.208,22.92992 C30.208,23.6096 30.76336,23.96416 32.51584,24.58496 C35.23184,25.53024 36.3712,26.9184 36.4,29.0456 C36.4,31.7344 34.32736,33.87248 30.208,33.74272 C28.79424,33.69824 27.228,33.13936 26.1472,32.54928 L26.14752,29.3288 L26.14752,29.3288 Z" id="Shape" fill="url(#linearGradient-4)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
