@@ -45,20 +45,59 @@ TYPOGRAPHY
 
 /*--Section | contact me--*/
 .section__contact .section__item__body {
-	text-align : left;
+	text-align     : left;
 }
 
 /*--Section | skill--*/
 .skill__name {
-	@include font__size(s);
-	@include font__weight(medium);
-	@include text__color(dark, primary);
-	text-align: left;
+	@include         font__size(s);
+	@include         font__weight(medium);
+	@include         text__color(dark, primary);
+	text-align     : left;
 }
 
 .skill__score {
-	@include font__size(xs);
-	@include font__weight(regular);
-	@include text__color(dark, secondary);
-	text-align: right;
+	@include         font__size(xs);
+	@include         font__weight(regular);
+	@include         text__color(dark, secondary);
+	text-align     : right;
 }
+
+/*--Footer--*/
+
+footer {
+	@include         text__color(light, primary);
+}
+
+.footer__title {
+	@include         font__size(l);
+}
+
+.footer__subtitle {
+	@include         font__size(s);
+	@include         font__weight(medium);
+}
+
+.footer__body {
+	@extend          .section__item__body;
+	@include         text__color(light, secondary);
+}
+
+.footer__nav a {
+	@extend          .footer__body;
+	text-decoration: underline;
+}
+
+.footer__copyright {
+	@include         font__size(xs);
+	@include         font__weight(regular);
+	@include         text__color(light, hint);
+	text-align     : center;
+}
+
+footer .icon-with-text {
+	@include         text__color(light, secondary);
+}
+
+
+
