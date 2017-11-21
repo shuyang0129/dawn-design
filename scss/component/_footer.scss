@@ -2,51 +2,24 @@ footer {
 	margin-top: 112px;
 	padding: 48px 32px;
 	background-color: #4A4A4A;
-	color: white;
 }
 
 .footer__title {
 	font-family: 'UnicaOne',cursive;
-	font-size: 20px;
 	margin-bottom: 16px;
 }
 
 .footer__subtitle {
-	font-size: 14px;
-	color: white;
-	font-weight: map-get($font__weight, medium);
 	margin-bottom: 24px;
-}
-
-.footer__body {
-	@extend .section__item__body;
-	color: rgba(white, 0.70);
-}
-
-.footer__nav a {
-	@extend .footer__body;
-	text-decoration: underline;
 }
 
 .footer__nav li{
 	margin-bottom: 8px;
 }
 
-.footer__copyright {
-	text-align: center;
-	color: rgba(white, 0.50);
-	font-size: 12px;
-	font-weight: map-get($font__weight, regular);
-}
-
 .footer__btn {
 	@extend   %button_def;
-	color: white;
 	margin-top: 24px;
-}
-
-footer .icon-with-text {
-	color: rgba(white, 0.70);
 }
 
 .group {
