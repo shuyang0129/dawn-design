@@ -175,3 +175,16 @@ FORM DEFAULT
 		color       : rgba(black, 0.38);
 	}
 }
+
+
+
+/*-----------------------------------------------------
+SKILL BAR | default setting
+-----------------------------------------------------*/
+
+%skill__level_def {
+	width           : 0%;
+	height          : 100%;
+	background-color: $skill__bar__color;
+}
+
