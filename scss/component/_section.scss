@@ -62,7 +62,7 @@ SECTION
 .section__skill .section__item {
 
 	> :nth-child(n) {
-		margin-bottom: 24px;
+		margin-bottom: 36px;
 	}
 
 	> :last-child {
@@ -81,19 +81,6 @@ SECTION
 	margin-right: 24px;
 }
 
-.skill__name {
-	font-size: 14px;
-	font-weight: map-get($font__weight, medium);
-	color: rgba($black, 0.87);
-	text-align: left;
-}
-
-.skill__score {
-	font-size: 8px;
-	font-weight: map-get($font__weight, regular);
-	color: rgba($black, 0.54);
-	text-align: right;
-}
 .skill__info {
 	width: 100%;
 }
@@ -101,7 +88,7 @@ SECTION
 
 .skill__level_bg {
 	width: 100%;
-	height: 3px;
+	height: 2px;
 	background-color: rgba($black, 0.30);
 	margin: 8px 0;
 }
