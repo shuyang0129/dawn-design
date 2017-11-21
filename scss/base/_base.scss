@@ -3,7 +3,7 @@ BASE
 -----------------------------------------------------*/
 
 * {
-    @include prefix(box-sizing, border-box, webkit moz);
+    @include        prefix(box-sizing, border-box, webkit moz);
 }
 
 body {

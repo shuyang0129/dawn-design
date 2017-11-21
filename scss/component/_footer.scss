@@ -1,27 +1,27 @@
 footer {
-	margin-top: 112px;
-	padding: 48px 32px;
+	margin-top      : 112px;
+	padding         : 48px 32px;
 	background-color: #4A4A4A;
 }
 
 .footer__title {
-	font-family: 'UnicaOne',cursive;
-	margin-bottom: 16px;
+	font-family     : 'UnicaOne',cursive;
+	margin-bottom   : 16px;
 }
 
 .footer__subtitle {
-	margin-bottom: 24px;
+	margin-bottom   : 24px;
 }
 
 .footer__nav li{
-	margin-bottom: 8px;
+	margin-bottom   : 8px;
 }
 
 .footer__btn {
-	@extend   %button_def;
-	margin-top: 24px;
+	@extend           %button_def;
+	margin-top      : 24px;
 }
 
 .group {
-	margin-bottom: 48px;
+	margin-bottom   : 48px;
 }

@@ -1,8 +1,8 @@
 .icon-with-text {
-	@extend .section__item__body;
+	@extend             .section__item__body;
 
 	li {
-		@extend %center_vertical;
+		@extend         %center_vertical;
 
 		&:nth-child(n+1) {
 			margin-top: 16px;
@@ -10,6 +10,6 @@
 	}
 
 	i {
-		margin-right: 16px;
+		margin-right  : 16px;
 	}
 }

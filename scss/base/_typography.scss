@@ -4,43 +4,43 @@ TYPOGRAPHY
 
 /*--Brand | name & slogan--*/
 .brand {
-	text-align : center;
-	@include text__color(light, primary);
+	text-align     : center;
+	@include         text__color(light, primary);
 }
 
 .brand__name {
-	font-family: 'UnicaOne',cursive;
-	@include font__size(xl);
+	font-family    : 'UnicaOne',cursive;
+	@include         font__size(xl);
 }
 
 .brand__slogan {
-	@include font__size(s);
-	@include font__weight(regular);
-	line-height: 1.7;
+	@include         font__size(s);
+	@include         font__weight(regular);
+	line-height    : 1.7;
 }
 
 /*--Section | global style--*/
 .section__item {
-	text-align : center;
+	text-align     : center;
 }
 
 .section__heading {
-	@include font__size(l);
-	@include font__weight(bold);
-	@include text__color(dark, primary);
+	@include         font__size(l);
+	@include         font__weight(bold);
+	@include         text__color(dark, primary);
 }
 
 .section__item__title {
-	@include font__size(m);
-	@include font__weight(medium);
-	@include text__color(dark, primary);
+	@include         font__size(m);
+	@include         font__weight(medium);
+	@include         text__color(dark, primary);
 }
 
 .section__item__body {
-	@include font__size(s);
-	@include font__weight(regular);
-	@include text__color(dark, secondary);
-	line-height: 24px;
+	@include         font__size(s);
+	@include         font__weight(regular);
+	@include         text__color(dark, secondary);
+	line-height    : 24px;
 }
 
 /*--Section | contact me--*/
