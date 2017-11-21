@@ -93,46 +93,11 @@ SECTION
 	margin: 8px 0;
 }
 
-#skill__level_photoshop {
-	width: 70%;
-	height: 100%;
-	background-color: #4A4A4A;
-}
-
-#skill__level_illustrator {
-	width: 80%;
-	height: 100%;
-	background-color: #4A4A4A;
-}
-
-#skill__level_html {
-	width: 90%;
-	height: 100%;
-	background-color: #4A4A4A;
-}
-
-#skill__level_css {
-	width: 90%;
-	height: 100%;
-	background-color: #4A4A4A;
-}
-
-#skill__level_jquery {
-	width: 80%;
-	height: 100%;
-	background-color: #4A4A4A;
-}
-
-#skill__level_sass {
-	width: 90%;
-	height: 100%;
-	background-color: #4A4A4A;
-}
-
-#skill__level_sketch {
-	width: 90%;
-	height: 100%;
-	background-color: #4A4A4A;
+@each $name, $score in $skill__score {
+	#skill__level_#{$name} {
+		width: $score;
+		@extend %skill__level_def;
+	}
 }
 
 
