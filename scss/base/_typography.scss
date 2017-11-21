@@ -5,17 +5,17 @@ TYPOGRAPHY
 /*--Brand | name & slogan--*/
 .brand {
 	text-align : center;
-	color      : white;
+	@include text__color(light, primary);
 }
 
 .brand__name {
 	font-family: 'UnicaOne',cursive;
-	font-size  : 40px;
+	@include font__size(xl);
 }
 
 .brand__slogan {
-	font-size  : 14px;
-	font-weight: map-get($font__weight, regular);
+	@include font__size(s);
+	@include font__weight(regular);
 	line-height: 1.7;
 }
 
@@ -25,25 +25,40 @@ TYPOGRAPHY
 }
 
 .section__heading {
-	font-size  : 20px;
-	font-weight: 700;
-	color      : rgba($black, 0.87);
+	@include font__size(l);
+	@include font__weight(bold);
+	@include text__color(dark, primary);
 }
 
 .section__item__title {
-	font-size  : 16px;
-	font-weight: 500;
-	color      : rgba($black, 0.87);
+	@include font__size(m);
+	@include font__weight(medium);
+	@include text__color(dark, primary);
 }
 
 .section__item__body {
-	font-size  : 14px;
-	font-weight: 400;
-	color      : rgba($black, 0.54);
+	@include font__size(s);
+	@include font__weight(regular);
+	@include text__color(dark, secondary);
 	line-height: 24px;
 }
 
 /*--Section | contact me--*/
 .section__contact .section__item__body {
 	text-align : left;
+}
+
+/*--Section | skill--*/
+.skill__name {
+	@include font__size(s);
+	@include font__weight(medium);
+	@include text__color(dark, primary);
+	text-align: left;
+}
+
+.skill__score {
+	@include font__size(xs);
+	@include font__weight(regular);
+	@include text__color(dark, secondary);
+	text-align: right;
 }
