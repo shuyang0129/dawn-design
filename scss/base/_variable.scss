@@ -55,17 +55,21 @@ $icon__color: (
 
 //Font weight
 $font__weight: (
-	ultralight  : 200,
-	light       : 300,
-	regular     : 400,
-	medium      : 500,
-	bold        : 700,
-	heavy       : 900,
+	ultralight: 200,
+	light     : 300,
+	regular   : 400,
+	medium    : 500,
+	bold      : 700,
+	heavy     : 900,
 );
 
 //Font size
 $font__size  : (
-	
+	xs: 10px,
+	s : 14px,
+	m : 16px,
+	l : 20px,
+	xl: 40px,
 );
 
 
