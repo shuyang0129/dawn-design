@@ -231,7 +231,7 @@ FLEXBOX - FLEX ITEMS
 
 //flex-basis
 @mixin flex-basis($basis: auto) {
-    @include prefix(flex-basic, $basic, webkit moz ms);
+    @include prefix(flex-basis, $basis, webkit moz ms);
 }
 
 //flex
