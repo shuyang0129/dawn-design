@@ -22,6 +22,20 @@ SECTION
 
 }
 
+.section__item .section__item__content {
+	&:last-child {
+		margin-bottom: 0px;
+	}
+
+	> :nth-child(n) {
+		margin-bottom: 16px;
+	}
+
+	> :last-child {
+		margin-bottom: 0px;
+	}
+}
+
 .section__heading {
 	width   : 100%;
 	height  : 112px;
