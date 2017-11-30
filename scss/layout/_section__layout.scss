@@ -41,7 +41,8 @@
 
 .section__project .section__item,
 .section__about .section__item,
-.section__skill .section__item {
+.section__skill .section__item,
+.section__contact .section__item {
 	
 	@media only screen and (min-width: 728px) {
 		
@@ -105,18 +106,18 @@
 	@media only screen and (min-width: 728px) {
 		
 		.profile-pic {
-			max-width   : 55%;
-			width: 150px;
-			height: 150px;
-			margin-right: 24px;
+			max-width    : 55%;
+			width        : 150px;
+			height       : 150px;
+			margin-right : 24px;
 		}
 
 		.section__item__content {
-			max-width   : 45%;
+			max-width    : 45%;
 		}
 
 		.section__btn {
-			width       : auto;
+			width        : auto;
 		}
 	}
 }
@@ -126,21 +127,30 @@
 	@media only screen and (min-width: 728px) {
 		
 		-webkit-flex-wrap: wrap;
-		-moz-flex-wrap: wrap;
-		-ms-flex-wrap: wrap;
-		flex-wrap: wrap;
+		-moz-flex-wrap   : wrap;
+		-ms-flex-wrap    : wrap;
+		flex-wrap        : wrap;
 
 	}
 }
 
-.skill__item {
+.skill__item,
+.about__item {
 
 	@media only screen and (min-width: 728px) {
 		
 		@include fluid-grid(2, $gutter: 56px);
-		margin-right: auto;
+		margin-right     : auto;
 
 	}
+}
+
+.section__contact .section__item {
+	//align-items: center
+	-webkit-align-items    : baseline;
+	-moz-align-items       : baseline;
+	-ms-align-items        : baseline;
+	align-items            : baseline;
 }
 
 
