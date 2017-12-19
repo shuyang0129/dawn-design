@@ -1,0 +1,112 @@
+// footer .section__item__content {
+	
+// 	@media only screen and (min-width: 728px) {
+		
+// 		//display: flex
+// 		-webkit-display        : flex;
+// 		-moz-display           : flex;
+// 		-ms-display            : flex;
+// 		display                : flex;
+		
+// 		//flex-direction: row
+// 		-webkit-flex-direction : row;
+// 		-moz-flex-direction    : row;
+// 		-ms-flex-direction     : row;
+// 		flex-direction         : row;
+
+// 		//flex-wrap: wrap
+// 		-webkit-flex-wrap: wrap;
+// 		-moz-flex-wrap   : wrap;
+// 		-ms-flex-wrap    : wrap;
+// 		flex-wrap        : wrap;
+		
+// 		//justify-content: center
+// 		-webkit-justify-content: center;
+// 		-moz-justify-content   : center;
+// 		-ms-justify-content    : center;
+// 		justify-content        : center;
+		
+// 		//align-items: center
+// 		-webkit-align-items    : flex-start;
+// 		-moz-align-items       : flex-start;
+// 		-ms-align-items        : flex-start;
+// 		align-items            : flex-start;
+		
+// 		//box-shadow: none
+// 		-webkit-box-shadow     : none;
+// 		-moz-box-shadow        : none;
+// 		-ms-box-shadow         : none;
+// 		-o-box-shadow          : none;
+// 		box-shadow             : none;
+
+// 		text-align             : left;
+
+// 	}
+// }
+
+// footer .group {
+
+// 	@media only screen and (min-width: 728px) {
+
+// 		@include fluid-grid(2, $gutter: 45px);
+// 		margin-right     : auto;
+
+// 	}
+
+// 	@media only screen and (min-width: 1080px) {
+
+// 		@include fluid-grid(4, $gutter: 45px);
+// 		margin-right     : auto;
+
+// 	}
+
+// }
+
+
+
+
+footer .section__item__content {
+	@include breakpoint(windows_m) {
+		//display: flex
+		-webkit-display        : flex;
+		-moz-display           : flex;
+		-ms-display            : flex;
+		display                : flex;
+
+		//flex-direction: row
+		-webkit-flex-direction : row;
+		-moz-flex-direction    : row;
+		-ms-flex-direction     : row;
+		flex-direction         : row;
+
+		//flex-wrap: wrap
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap   : wrap;
+		-ms-flex-wrap    : wrap;
+		flex-wrap        : wrap;
+
+		//justify-content: center
+		-webkit-justify-content: center;
+		-moz-justify-content   : center;
+		-ms-justify-content    : center;
+		justify-content        : center;
+
+		.group {
+			width: 45%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+
+		@include breakpoint(windows_l) {
+			.group {
+				width: auto;
+				max-width: 200px;
+			}
+		}
+}
+
+
+
+
+
