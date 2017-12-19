@@ -100,15 +100,7 @@
 ////////////////////////////////////////////////////
 
 @mixin breakpoint($point) {
-  @if $point == handset_l {
-    @media (max-width: map-get($breakpoint, $point)) { @content; }
-  }
- 
-  @else if $point == tablet {
-    @media (min-width: map-get($breakpoint, $point)) { @content; }
-  }
- 
-  @else if $point == windows_m {
+  @if $point == windows_m {
     @media (min-width: map-get($breakpoint, $point)) { @content; }
   }
  
@@ -117,7 +109,7 @@
   }
  
   @else {
-    @warn "Breakpoint mixin supports: handset_l, tablet, windows_m, windows_l";
+    @warn "Breakpoint mixin supports: windows_m, windows_l";
   }
 }
 
