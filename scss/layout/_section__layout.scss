@@ -6,7 +6,7 @@
 	@include align-content(flex-start);
 	margin-bottom: 0px;
 
-	@media only screen and (min-width: 728px) {
+	@include breakpoint(windows_m) {
 		margin-top: 24px;
 		margin-bottom: 24px;
 	}
@@ -44,7 +44,7 @@
 .section__skill .section__item,
 .section__contact .section__item {
 	
-	@media only screen and (min-width: 728px) {
+	@include breakpoint(windows_m) {
 		
 		//display: flex
 		-webkit-display        : flex;
@@ -84,7 +84,7 @@
 
 .section__project .section__item {
 	
-	@media only screen and (min-width: 728px) {
+	@include breakpoint(windows_m) {
 
 		img {
 			max-width   : 55%;
@@ -103,7 +103,7 @@
 
 .section__about .section__item {
 	
-	@media only screen and (min-width: 728px) {
+	@include breakpoint(windows_m) {
 		
 		.profile-pic {
 			max-width    : 55%;
@@ -124,7 +124,7 @@
 
 .section__skill .section__item {
 
-	@media only screen and (min-width: 728px) {
+	@include breakpoint(windows_m) {
 		
 		-webkit-flex-wrap: wrap;
 		-moz-flex-wrap   : wrap;
@@ -137,7 +137,7 @@
 .skill__item,
 .about__item {
 
-	@media only screen and (min-width: 728px) {
+	@include breakpoint(windows_m) {
 		
 		@include fluid-grid(2, $gutter: 56px);
 		margin-right     : auto;
@@ -146,11 +146,13 @@
 }
 
 .section__contact .section__item {
-	//align-items: center
-	-webkit-align-items    : baseline;
-	-moz-align-items       : baseline;
-	-ms-align-items        : baseline;
-	align-items            : baseline;
+	
+	//align-items: baseline
+	-webkit-align-items  : baseline;
+	-moz-align-items     : baseline;
+	-ms-align-items      : baseline;
+	align-items          : baseline;
+	
 }
 
 
