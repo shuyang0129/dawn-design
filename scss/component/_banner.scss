@@ -9,8 +9,9 @@ header {
 	height          : 100vh;
 	min-height      : 460px;
 	max-height      : 960px;
-	background      : linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-	                  url(../img/dawn_protrairt.jpg) no-repeat top center;
+	background      : linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+	                  // url(../img/dawn_protrairt.jpg) no-repeat top center;
+	                  url(../img/banner-img_2.jpg) no-repeat bottom center;
 	@include          prefix(background-size, cover, webkit moz o);
 	@extend           %center_center;
  }

@@ -33,7 +33,7 @@ button {
 	padding       : 0;
 }
 
-input[type=text] {
+form.form__contact input {
 	@extend         %form_def;
 	height        : 36px;
 	padding-left  : 16px;
